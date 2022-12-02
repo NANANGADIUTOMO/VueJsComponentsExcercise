@@ -5,7 +5,10 @@
         </a><p></p>
         <div class="text">
         <b><center>{{cardTitle}}</center></b>
-        <p> <center> IDR {{cardPrice}} </center></p>
+        <div class="IDR">
+        <center> Rp. <b>{{cardPrice}}</b> </center>
+        <button type="button" class="btn">Beli</button>
+        </div>
         </div>
     </div>
   
@@ -26,9 +29,24 @@ export default {
     border: 1px solid;
     border-radius: 5px;
 }
-.text{
-    align-items: center;
-    
+.IDR{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.IDR b{
+    font-size: larger;
+}
+.text b{
+    font-size: 20px; 
+}
+.btn{
+    background-color: #ee4d2d;
+    margin-left: 7%;
+    margin-bottom: 10px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    width: 80px;
 }
 
 </style>

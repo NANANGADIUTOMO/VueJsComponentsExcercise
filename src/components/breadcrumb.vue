@@ -11,19 +11,22 @@
                                 <router-link to="/home" class="nav-link text-dark"><b>Home</b><span class="sr-only">(current)</span></router-link>
                             </li>
                             <li class="nav-item active">
-                                <router-link to="/detail" class="nav-link text-dark" style="display: none;" v-show="tampungan != '/shiping'"><b>/ Detail</b><span class="sr-only">(current)</span></router-link>
+                                <router-link to="/detail" class="nav-link text-dark" style="display: none;" v-show="tampungan != '/shiping'"><b>/ Detail</b>
+                                <span class="sr-only">(current)</span></router-link>
                             </li>
                             <li class="nav-item active">
-                                <router-link to="/shiping" class="nav-link text-dark" v-show="tampungan == '/shiping'"><b>/ shiping </b><span class="sr-only">(current)</span></router-link>
+                                <router-link to="/shiping" class="nav-link text-dark" v-show="tampungan == '/shiping'"><b>/ shiping </b>
+                                <span class="sr-only">(current)</span></router-link>
                             </li>
                             <li class="nav-item active">
-                                <router-link to="/shiping" class="nav-link text-dark" v-show="tampungan == '/detail'"><b>/ shiping </b><span class="sr-only">(current)</span></router-link>
+                                <router-link to="/shiping" class="nav-link text-dark" v-show="tampungan == '/detail'"><b>/ shiping </b>
+                                \<span class="sr-only">(current)</span></router-link>
+                            </li>
+                            <li class="nav-item active">
+                                <router-link to="/catalog" class="nav-link text-dark" v-show="tampungan == '/catalog'"><b>/ catalog </b>
+                                <span class="sr-only">(current)</span></router-link>
                             </li>
                             
-
-                            <!-- <li class="nav-item active" type="option">
-                            <router-link to="/detail" class="nav-link text-dark"><b> /</b><span class="sr-only">(current)</span></router-link>
-                            </li> -->
                             </ul>
                         </div>
                         

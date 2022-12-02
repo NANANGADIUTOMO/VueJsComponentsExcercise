@@ -57,11 +57,21 @@ export default {
     border: 1px solid;
     border-radius: 7%;
 }
+.gallery .kotak1:hover{
+    transform: scale(1.5);
+    border: 1px solid;
+    background-color: azure;
+}
 .gallery .kotak2{
     margin-left: 30px;
     margin-top: 10px;
     border: 1px solid;
     border-radius: 7%;
+}
+.gallery .kotak2:hover{
+    transform: scale(1.5);
+    border: 1px solid;
+    background-color: azure;
 }
 .gallery .kotak3{
     margin-left: 30px;
@@ -69,11 +79,21 @@ export default {
     border: 1px solid;
     border-radius: 7%;
 }
+.gallery .kotak3:hover{
+    transform: scale(1.5);
+    border: 1px solid;
+    background-color: azure;
+}
 .gallery .kotak4{
     margin-left: 30px;
     margin-top: 10px;
     border: 1px solid;
     border-radius: 7%;
+}
+.gallery .kotak4:hover{
+    transform: scale(1.5);
+    border: 1px solid;
+    background-color: azure;
 }
 .gallery .kotak5{
     margin-left: 30px;
@@ -81,14 +101,25 @@ export default {
     border: 1px solid;
     border-radius: 7%;
 }
+.gallery .kotak5:hover{
+    transform: scale(1.5);
+    border: 1px solid;
+    background-color: azure;
+}
 .gambar{
     border: 1px solid;
     border-radius: 2%;
     margin-left: 10px;
-    margin-right: 20px;
+    margin-right: 3%;
     margin-top: 10px;
     width: 460px;
     height: 580px;
+
+}
+.gambar:hover{
+    transform: scale(1.1);
+    border: 2px solid;
+    background-color: azure;
 }
 .gallery .ket{
     margin-top: 5%;
@@ -96,6 +127,9 @@ export default {
 .gambar img{
     width: 500px;
     height: 500px;
+}
+.kotak{
+    margin-right: 2%;
 }
 
 </style>

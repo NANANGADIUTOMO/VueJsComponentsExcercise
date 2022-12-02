@@ -9,7 +9,6 @@
             :cardPrice="arrcardPrice[index]"
             :cardimage="arrcardImage[index]"  
             @changepicture="changepictureFunc">
-            
         </card> 
         </div>
 

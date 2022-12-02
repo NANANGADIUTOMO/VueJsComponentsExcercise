@@ -9,9 +9,9 @@
         <div class="text">
                 <router-link to="/home" class="nav-link text-dark" href="">Home</router-link>
                 <router-link to="/shiping" class="nav-link text-dark">Shiping</router-link>
-                <a class="nav-link text-dark" href="">Catalog</a>
+                <router-link to="/catalog" class="nav-link text-dark">Catalog</router-link>
                 <a class="nav-link text-dark" href="">Delivery</a>
-                <a class="nav-link text-dark" href="">Shiping List</a>
+                <router-link to="/shippinglist" class="nav-link text-dark">Shipping List</router-link>
                 <a href=""><img src="../assets/img/cart-icon.png" alt="" class="mt-2 mr-3" width="20px" height="20px"></a>
         </div>
     </div>
